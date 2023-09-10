@@ -4,7 +4,7 @@ const app = express();
 
 
 
-const FriendController = require('./controller/FriendController');
+const FriendController = require('./controller/friendController');
 
 app.use(cors());
 // Outras configurações do servidor
